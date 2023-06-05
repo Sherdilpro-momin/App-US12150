@@ -1,0 +1,58 @@
+.chat-container {
+    width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.chat-area {
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin: 5px 0;
+}
+
+.input-container {
+    display: flex;
+}
+
+input {
+    flex: 1;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+.sender-message {
+    text-align: left;
+    color: black;
+}
+
+.receiver-message {
+    text-align: right;
+    color: gray;
+}
+
+.prompt-message {
+    background-color: #F1F1F1;
+    color: #333333;
+}
+
+.response-message {
+    background-color: #EFEFEF;
+    color: #666666;
+    text-align: right;
+}
+
+.intent-response {
+    text-align: right;
+    font-style: italic;
+    color: #999999;
+}
