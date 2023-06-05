@@ -39,4 +39,8 @@ export class AppComponent {
     // and return true if it matches the criteria
     return message.includes('intent');
   }
+
+  isEven(number: number): boolean {
+  return number % 2 === 0;
+}
 }

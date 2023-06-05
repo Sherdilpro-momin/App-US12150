@@ -1,14 +1,15 @@
 .chat-container {
-    width: 400px;
+    width: 800px;
     margin: auto;
     border: 1px solid #ccc;
+    border-radius: 5px;
     padding: 10px;
     box-sizing: border-box;
 }
 
 .chat-area {
-    height: 300px;
-    overflow-y: scroll;
+    height: 600px;
+    overflow-y: auto;
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
 }
@@ -24,6 +25,7 @@
 input {
     flex: 1;
     padding: 5px;
+    margin-right: 5px;
 }
 
 button {
@@ -54,5 +56,32 @@ button {
 .intent-response {
     text-align: right;
     font-style: italic;
-    color: #999999;
+    /* color: #999999; */
+}
+
+.prompt{
+    display: flex;
+    justify-content: start;
+    padding: 3px;
+}
+.response{
+    display: flex;
+    justify-content: end;
+    padding: 3px;
+}
+.prompt-design{
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    padding: 5px;
+}
+.response-design{
+    background-color: #bfddd7;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.logo
+{    
+    display: flex;
+    justify-content: center;
 }
