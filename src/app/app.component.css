@@ -22,51 +22,24 @@
     display: flex;
 }
 
-input {
+.input {
     flex: 1;
     padding: 5px;
     margin-right: 5px;
 }
 
-button {
+.button {
     padding: 5px 10px;
-}
-
-.sender-message {
-    text-align: left;
-    color: black;
-}
-
-.receiver-message {
-    text-align: right;
-    color: gray;
-}
-
-.prompt-message {
-    background-color: #F1F1F1;
-    color: #333333;
-}
-
-.response-message {
-    background-color: #EFEFEF;
-    color: #666666;
-    text-align: right;
-}
-
-.intent-response {
-    text-align: right;
-    font-style: italic;
-    /* color: #999999; */
 }
 
 .prompt{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     padding: 3px;
 }
 .response{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding: 3px;
 }
 .prompt-design{
